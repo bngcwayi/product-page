@@ -1,3 +1,23 @@
+/* styling the body of the HTML page */
 body {
   background: #f8f0e5;
+}
+/* styling the navbar*/
+.row h1 {
+  display: inline;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+/* styling the navbar*/
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+
+  font-size: 1.5rem;
+}
+#nav-bar {
+  display: flex;
+  justify-content: center;
 }
