@@ -1,4 +1,7 @@
 body {
+  background-color: #f8f0e5;
+}
+.container {
   background: #f8f0e5;
 }
 /* styling the navbar*/
@@ -21,13 +24,18 @@ body {
   justify-content: center;
 }
 .navbar a:hover {
-  border: 1px solid red;
+  border: 1px solid peru;
   border-radius: 10px;
   background: peru;
   color: black;
   transition: all 100ms ease-in-out;
 }
-
+/* styling the Submit button*/
+.btn {
+  font-size: 50px;
+  display: block;
+  color: red;
+}
 /* media queries*/
 @media screen and (max-width: 350px) {
   .row img {
