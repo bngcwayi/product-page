@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/f3db6f10ca.js"
       crossorigin="anonymous"
@@ -14,7 +15,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <title>Product:L-shaped Couches</title>
   </head>
   <body>
@@ -29,13 +34,13 @@
             <nav id="nav-bar">
               <ul>
                 <li>
-                  <a class="nav-link" href="#">Features </a>
+                  <a class="nav-link" href="#Features">Features </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#">Styles</a>
+                  <a class="nav-link" href="#Styles">Styles</a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#Pricing">Pricing</a>
                 </li>
               </ul>
             </nav>
@@ -75,17 +80,25 @@
       <!-- This is a hero section with a form -->
 
       <section class="hero">
-        <h2>Focusing on Sectional Couches</h2>
-        <p>
-          This is basically research for when its time for me to buy an L-shaped
-          couch. Why L-shaped couch? I like the fact that it does not take too
-          much space and more people can sit on it even though its just 1 couch.
-          The current one I have has caved in the middle hence I am day dreaming
-          about buying a sectional couch.
+        <h2 class="fw-bold text-center mt-4 mb-4 fs-1">
+          Focusing on Sectional Couches
+        </h2>
+        <p class="fw-light fs-4 lh-base mb-4">
+          This page is about sectional couches and how they've changed in their
+          design over time, how they can be used in different ways, and how they
+          affect the look of modern interiors. Sectional couches used to be
+          regular sofas but now they can be rearranged and have extra functions,
+          which is useful for different types of people and room styles.We also
+          looks at things like what materials they're made of, how they can be
+          set up, and what people like, to understand how sectional couches fit
+          in with how we design our homes today.
         </p>
-        <blockquote>"Wait until i get my money right"</blockquote>
-        <cite>Kanye West</cite>
-        <form id="form">
+
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          class="mt4 mb-4"
+        >
           <input
             type="email"
             id="email"
@@ -95,17 +108,75 @@
           <input type="submit" id="submit" />
         </form>
       </section>
+
       <div class="product-features">
         <section>
-          <h4>Product Features</h4>
-          <ul>
-            <li>Durable</li>
-            <li>Stylish</li>
+          <h4 id="Features" class="text-center fs-2 fw-bold">Features</h4>
+          <ul class="features">
+            <li>
+              <p class="fw-lighter fs-5">
+                <strong>Family-Friendly:</strong> Larger sectionals accommodate
+                families and guests, providing ample space for everyone to relax
+                together.
+              </p>
+            </li>
+            <li>
+              <strong>Space Optimization:</strong> They maximize seating
+              capacity within limited spaces by utilizing corners and creating a
+              sense of openness.
+            </li>
+            <li>
+              <strong>Comfort:</strong> With plush cushions and ergonomic
+              design, sectionals prioritize comfort for extended periods of
+              sitting or lounging.
+            </li>
+            <li>
+              <strong>Trendy and Contemporary</strong>: Sectionals align with
+              current interior design trends, making them a popular choice for
+              modern living spaces.
+            </li>
+            <li>
+              <strong>Functional Design:</strong> Many sectional couches come
+              with built-in storage, pull-out beds, or reclining seats, adding
+              practicality to their aesthetic appeal.
+            </li>
+            <li>
+              <strong>Aesthetic Appeal:</strong> Modern sectional designs
+              contribute to the overall aesthetic of a room, enhancing interior
+              décor and style.
+            </li>
           </ul>
         </section>
       </div>
       <!-- video element -->
-      <iframe id="video" src=""></iframe>
+      <div class="styles">
+        <section>
+          <h4 id="Styles">Different Styles of Sectionals</h4>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wyBL_BVUjyU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </div>
+      <div class="pricing">
+        <section>
+          <h4 id="Pricing">Pricing</h4>
+          <ul>
+            <li>L</li>
+            <li>L</li>
+            <li>L</li>
+          </ul>
+        </section>
+      </div>
+
+      <blockquote>"Wait until i get my money right"</blockquote>
+      <cite>Kanye West</cite>
+      <footer>Coded by Babalwa Ngcwayi</footer>
     </div>
   </body>
 </html>
